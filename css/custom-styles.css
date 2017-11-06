@@ -265,8 +265,8 @@ margin-bottom: 10px;}
 /* ==========================================================================
     Footer styles starts here
    ========================================================================== */
-    .copy-rights{padding: 40px 0; overflow: hidden; text-align: center; color: #ebebeb; font-size: 16px; line-height: 26px;font-family: 'source_sans_proregular';}
-    .copy-rights a{font-size: 16px;font-family: 'source_sans_proregular'; color: #ebebeb;}
+    .copy-rights{padding: 40px 0; overflow: hidden; text-align: center; color: #ebebeb; font-size: 16px; line-height: 26px;font-family: 'Righteous'; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+    .copy-rights a{font-size: 16px;font-family: 'Righteous'; color: #ebebeb;}
     .copy-rights a:hover{color: #ed3237; text-decoration:none;}
 
     .blur{
@@ -289,10 +289,10 @@ margin-bottom: 10px;}
 
 .red-text { color: #ed3237 }
 
-.collapsed-menu a  {color: #ed3237; font-size: 26px; line-height: 22px;font-family: 'Righteous'; text-transform:uppercase; font-style: none; text-decoration: none; }
-  }
+.collapsed-menu a  {color: #ed3237; font-size: 26px; line-height: 22px;font-family: 'Righteous'; text-transform:uppercase; font-style: none; text-decoration: ; }
 
-  }
+.copy-right-botton p {background: #ebebeb; color: #373435;}
+
 
 
 
