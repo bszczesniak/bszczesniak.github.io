@@ -75,7 +75,7 @@
 }
 
 
-body{background: url(../img/body-bg.jpg) repeat;}
+body{background: url(../img/body-bg.jpg) fixed;}
 h1, h2, h3, h4, h5, h6{margin: 0;}
 h1{}
 h2{}
@@ -175,10 +175,20 @@ a{transition:all 1s; }
     Generic styles starts here
    ========================================================================== */
     .header-wrapper{border-radius: 0px 5px 5px 0; text-align: center; background: #ebebeb;}
-    .site-name{overflow: hidden; display: inline-block; margin: 0 auto; text-align: center;
-     background: #ebebeb; border-radius: 5px; margin-top: -40px; box-shadow: -8px 8px 0px 1px rgba(0, 0, 0, 0.1);}
-    .site-name h1{padding: 40px 30px; font-family: 'Righteous'; font-size: 28px; line-height: 22px; color: #373435;letter-spacing: 2px;text-transform: uppercase;}
+    .site-name{
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto;
+    height: 110px;
+    text-align: center;
+    background: #ebebeb;
+    border-radius: 5px;
+    margin-top: -40px;
+    box-shadow: -8px 8px 0px 1px rgba(0, 0, 0, 0.1);
+}
+    .site-name h1{padding: 20px 30px;font-family: 'Righteous';font-size: 28px;line-height: 22px;color: #373435;letter-spacing: 2px;text-transform: uppercase;}
     .site-name h2{padding: 40px 30px; font-family: 'Righteous'; font-size: 36px; line-height: 22px; color: #373435;letter-spacing: 2px;text-transform: uppercase;}
+    .site-name h3{padding: 20px 30px;font-family: 'Righteous';font-size: 18px;line-height: 22px;color: #373435;letter-spacing: 2px;text-transform: uppercase;}
 
 /* ==========================================================================
     Banner styles starts here
