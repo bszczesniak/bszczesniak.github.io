@@ -1,440 +1,764 @@
-
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV Bartłomiej Szczęśniak">
-    <meta name="author" content="Bartłomiej Szczęśniak">
-   
-
     <title>CV Bartłomiej Szczęśniak</title>
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/custom-styles.css" rel="stylesheet">
-    <link href="css/image-effects.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-	
-	   <link href="css/normalize.css" rel="stylesheet">
-		 <link href="css/component.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/font-awesome.css">
-      <link rel="stylesheet" href="css/font-awesome-ie7.css">
-      <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-      <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
-	  
-    <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-	  <script src="js/modernizr.custom.js"></script>
- 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/front.css">
   </head>
-
   <body>
-     <div class="container page-styling">
-    <div class="header-wrapper">
-      <div class="site-name">
-        <h1>CURRICULUM VITAE</h1>
-        <h3><a class="more" href="CV Bartlomiej Szczesniak.pdf">POBIERZ CV</a></h3>
-      </div>
-
-      <div class="menu">
-        <div class="navbar">
-         
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+    <header id="header" class="u-header u-header--abs-top-md u-header--bg-transparent u-header--show-hide-md"
+      data-header-fix-moment="500"
+      data-header-fix-effect="slide">
+      <div class="u-header__section">
+        <div class="container u-header__hide-content pt-2">
+          <div class="d-flex align-items-center mb-0">
+            <div class="ml-auto">
             </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav ">
-                <li><a href="#daneosobowe">Dane osobowe</a></li>
-                <li><a href="#praca">Doświadczenie</a></li>
-                <li><a href="#projekty">Projekty</a></li>
-                <li><a href="#umiejetnosci">Umiejętności</a></li>
-                <li><a href="#dodatkoweinformacje">Dodatkowe informacje</a></li>
-                <li><a href="#zainteresowania">Zainteresowania</a></li>
-
+            <ul class="list-inline ml-2 mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-xs u-btn--icon u-btn-text-secondary" href="https://github.com/bszczesniak" target="_blank">
+                <span class="fab fa-github u-btn--icon__inner"></span>
+                </a>
+              </li>
+              <li class="list-inline-item position-relative">
+                <a class="btn btn-xs u-btn--icon u-btn-text-secondary" href="https://www.linkedin.com/in/bartlomiejszczesniak/" target="_blank">
+                <span class="fab fa-linkedin u-btn--icon__inner"></span>
+                </a>
+              </li>
+              <li class="list-inline-item position-relative">
+                <a class="btn btn-xs u-btn--icon u-btn-text-secondary" href="https://www.facebook.com/bszczesniak" target="_blank">
+                <span class="fab fa-facebook u-btn--icon__inner"></span>
+                </a>
+              </li>
+              <li class="nav-item d-none d-md-inline-block pl-3">
+                <a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="CV_Bartlomiej_Szczesniak.pdf" target="_blank">
+                Pobierz CV
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="logoAndNav" class="container">
+          <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+            <button type="button" class="ml-auto navbar-toggler btn u-hamburger"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+              aria-controls="navBar"
+              data-toggle="collapse"
+              data-target="#navBar">
+            <span id="hamburgerTrigger" class="u-hamburger__box">
+            <span class="u-hamburger__inner"></span>
+            </span>
+            </button>
+            <div id="navBar" class="collapse navbar-collapse py-0">
+              <ul class="navbar-nav u-header__navbar-nav ml-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link u-header__nav-link js-go-to" href="javascript:;" data-target="#data" data-type="static">
+                  Dane osobowe
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link u-header__nav-link js-go-to" href="javascript:;" data-target="#jobs" data-type="static">
+                  Doświadczenie zawodowe i projekty
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link u-header__nav-link js-go-to" href="javascript:;" data-target="#skills" data-type="static">
+                  Umiejętności
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link u-header__nav-link js-go-to" href="javascript:;" data-target="#info" data-type="static">
+                  Informacje
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link u-header__nav-link js-go-to pr-0" href="javascript:;" data-target="#hobby" data-type="static">
+                  Zainteresowania
+                  </a>
+                </li>
               </ul>
-
-
-            </div><!--/.navbar-collapse -->
-
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="content" role="main" id="data">
+    <div class="d-flex align-items-center position-relative u-bg-gradient-v1  u-space-2 u-space-5-top--md min-height-100vh--lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="g-mb-32">
+              <h1 class="display-4 font-size-48--md-down mb-3">Bartłomiej Szczęśniak</h1>
+              <p>
+                <strong class="text-primary">
+                <span class="u-text-animation u-text-animation--typing"></span>
+                Developer</strong>
+              </p>
+              <p>Zawsze otwarty na nowe rozwiązania.</p>
+              <p><a class="btn btn-sm btn-primary u-btn-primary transition-3d-hover" href="CV_Bartlomiej_Szczesniak.pdf" target="_blank">
+                Pobierz CV
+                </a></p>
+            </div>
           </div>
-          <div class="mini-menu">
-            <div class="collapsed-menu">
-              <a href="CV Bartlomiej Szczesniak.pdf">Pobierz CV</a><br>
-                <a href="#daneosobowe">Dane osobowe</a><br>
-                <a href="#praca">Doświadczenie zawodowe</a></li><br>
-                <a href="#projekty">Projekty</a></li><br>
-                <a href="#umiejetnosci">Umiejętności</a><br>
-                <a href="#dodatkoweinformacje">Dodatkowe informacje</a><br>
-                <a href="#zainteresowania">Zainteresowania</a>
-          </div>
-          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-xl-7 d-none d-lg-block position-absolute-top-right-0 pr-0" style="margin-top: 105.6px;">
+        <figure class="w-100">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 1374.7 1083.6" style="enable-background:new 0 0 1374.7 1083.6;" xml:space="preserve">
+            <path class="u-fill-primary" opacity=".05" d="M285.2,170.1c-94.5,8.6-181.2,57.4-235.9,134.8C-34.7,423.6-54.5,621.5,349,879.8
+              c636.5,407.6,600,9.3,591.9-47.4c-0.8-5.5-1.4-11.1-2-16.6l-34.2-374.1C888.4,262,729.2,129.6,549.4,146L285.2,170.1z"/>
+            <g>
+              <defs>
+                <path id="heroBlock1" d="M1374.7,0H687.6l-278,279.7c-150,150.9-148.1,395.3,4.4,543.8l0,0C554.1,960,774.9,968.7,925.4,843.6
+                  l449.3-373.4V0z"/>
+              </defs>
+              <clipPath id="heroBlock2">
+                <use xlink:href="#heroBlock1"  style="overflow:visible;"/>
+              </clipPath>
+              <g transform="matrix(1 0 0 1 0 0)" style="clip-path:url(#heroBlock2);">
+                <image style="overflow:visible;" width="750" height="750" xlink:href="assets/img/750x750/me.jpg"  transform="matrix(1.4462 0 0 1.4448 290.09 0)"></image>
+              </g>
+            </g>
+          </svg>
+        </figure>
+      </div>
     </div>
-      </div>
-      <div class="content-wrap">
-        <div class="main-title">
-          <div><img src="img/me.jpg" class="img-box" id="daneosobowe"></div>
-          <ul class="grid effect-8" id="grid">
-
-            <li ><h1>Bartłomiej Szczęśniak</h1>
-          <h4>Data urodzenia:</h4>
-          <h4>23 sierpnia 1988</h4>
-          <h4><br>Adres:</h4>
-          <h4>ul. Bitwy Warszawskiej 1920r 10/66</h4>
-          <h4>02-366 Warszawa</h4>
-          <h4><br>Telefon:</h4>
-          <h4>501-471-880</h4>
-          <h4><br>Email:</h4>
-          <h4><a href="mailto:bartlomiej.szczesniak@gmail.com" class="more">bartlomiej.szczesniak@gmail.com</a></h4>
-          <h4><br>GitHub:</h4>
-          <h4><a href="https://github.com/bszczesniak" class="more">github.com/bszczesniak</a></h4>
-          <h4><br>LinkedIn:</h4>
-          <h4><a href="https://www.linkedin.com/in/bartlomiejszczesniak/" class="more">linkedin.com/in/bartlomiejszczesniak</a></h4>
-
-        </li>
-          </ul>
-          
+    <div class="clearfix u-space-2">
+      <div class="u-gradient-half-primary-v1 u-space-2-bottom">
+        <div class="container u-space-2">
+          <div class="media d-block d-md-flex">
+            <div class="media-body">
+              <h1 class="lead text-white text-center display-4">Dane osobowe</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fa fa-birthday-cake u-icon__inner"></span>
+                </span>
+                <h2 class="h6 mb-0">Data urodzenia</h2>
+                <p class="mb-0">23 Sierpnia 1988</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fa fa-map-marker-alt u-icon__inner"></span>
+                </span>
+                <h2 class="h6 mb-0">Adres zamieszkania</h2>
+                <p class="mb-0">Siemieńskiego 5/8, 02-106</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fa fa-phone u-icon__inner"></span>
+                </span>
+                <h3 class="h6 mb-0">Telefon</h3>
+                <p class="mb-0">501 471 880</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fa fa-envelope u-icon__inner"></span>
+                </span>
+                <h3 class="h6 mb-0">Email</h3>
+                <p class="mb-0"><a href="mailto:bartlomiej.szczesniak@gmail.com">bartlomiej.szczesniak@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fab fa-github u-icon__inner"></span>
+                </span>
+                <h3 class="h6 mb-0">Github</h3>
+                <p class="mb-0"><a href="https://github.com/bszczesniak">github.com/bszczesniak</a></p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-5">
+              <div class="text-center py-5 bg-white shadow rounded transition-3d-hover">
+                <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+                <span class="fab fa-linkedin u-icon__inner"></span>
+                </span>
+                <h3 class="h6 mb-0">LinkedIn</h3>
+                <p class="mb-0"><a href="https://www.linkedin.com/in/bartlomiejszczesniak/">linkedin.com/in/bartlomiejszczesniak</a></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-           <div class="ruler"></div>
-	      <div class="content-wrap centering">
-	        <div class="main-title spacing-bt">
-	          <ul class="grid effect-8" id="grid">
-	              <li><h1 id="praca">DOŚWIADCZENIE ZAWODOWE</h1>
-	            </li>
-	          </ul>  
-	        </div>
-	        <div class="featured-items">
-	          <ul class="grid effect-2" id="grid">
-	          	<li>
-	              <div class="item">
-	            <h5>Junior Frontend Developer</h5>
-	            <div class="grow">
-	            <img src="img/company1.jpg" alt="">
-	            </div>
-	            <p>Staż jako <span class="red-text">Junior Frontend Developer</span> w agencji interaktywnej PAGE Interactive. Zajmuję się tworzeniem tworzeniem responsywnych witryn z wykorzystaniem <span class="red-text">HTML</span> / <span class="red-text">JavaScript</span> / <span class="red-text">CSS</span> / <span class="red-text">Bootstrap</span> / <span class="red-text">WordPress</span>.</p>
-	          </div>
-	            </li>
-	                        
-	          </ul>
-	          
-	          
-	          
-	        </div>
+    </div>
+    <div class="position-relative" id="jobs">
+      <div class="container u-space-2">
+        <div class="media d-block d-md-flex">
+          <div class="media-body">
+            <h1 class="lead text-primary display-4">Doświadczenie zawodowe</h1>
+          </div>
         </div>
-		<div class="ruler"></div>
-      
-
-      <div class="ruler"></div>
-	      <div class="content-wrap centering">
-	        <div class="main-title spacing-bt">
-	          <ul class="grid effect-8" id="grid">
-	              <li><h1 id="projekty">PROJEKTY</h1>
-	            </li>
-	          </ul>  
-	        </div>
-	        <div class="featured-items">
-	          <ul class="grid effect-2" id="grid">
-	          	<li>
-	              <div class="item">
-	            <h5>Skarbiec postaci do papierowych gier RPG</h5>
-	            <div class="grow">
-	            <img src="img/img5.jpg" alt="">
-	            </div>
-	            <p>Projekt wykonany w <span class="red-text">JEE</span> służący do zapisywania i odczytu z bazy danych postaci do papierowych gier RPG. Korzysta z <span class="red-text">JPA</span> / <span class="red-text">Hibernate</span>, <span class="red-text">Spring Boota</span>, <span class="red-text">REST</span>, <span class="red-text">Thymeleafa</span>, <span class="red-text">jQuery</span>, <span class="red-text">HTML</span> i <span class="red-text">CSS</span>.</p>
-	            <p><a href="https://github.com/bszczesniak/SkarbiecPostaciRPG" class="more">KOD NA GITHUB &#9654;</a></p>
-	          </div>
-	            </li>
-
-	            <li>
-	              <div class="item">
-	            <h5>Generator Lorem Ipsum</h5>
-	          <div class="grow">
-	            <img src="img/img1.jpg" alt="">
-	           </div>
-	            <p>Samodzielny projekt generujący tekst w <span class="red-text">JEE</span> na różne sposoby. Tworząc go wykorzystałem <span class="red-text">Spring Boota</span>, <span class="red-text">Thymeleafa</span>, <span class="red-text">jQuery</span>, <span class="red-text">HTML</span> i <span class="red-text">CSS</span>.</p>
-	            <p><a href="https://bartlomiejlorem.herokuapp.com/" class="more">ZOBACZ NA HEROKU &#9654;</a></p>
-	          </div>
-	            </li>
-	            <li>
-	              <div class="item">
-	            <h5>Klon Kwejka</h5>
-	            <div class="grow">
-	            <img src="img/img2.jpg" alt="">
-	            </div>
-	            <p>Projekt grupowy w <span class="red-text">JEE</span>, dzięki któremu nauczyłem się korzystać z <span class="red-text">systemu kontroli wersji</span>, <span class="red-text">rozwiązywania konfliktów</span> oraz korzystać z szablonów. Wykorzystuje <span class="red-text">Spring Boota</span>, <span class="red-text">REST</span>, <span class="red-text">JSon</span>, <span class="red-text">Thymeleafa</span>, <span class="red-text">HTML</span> i <span class="red-text">CSS</span>.</p>
-	            <p><a href="https://kwejkakademiakodu.herokuapp.com/" class="more">ZOBACZ NA HEROKU &#9654;</a></p>
-	            <p><a href="https://github.com/bszczesniak/kwejk" class="more">KOD NA GITHUB &#9654;</a></p>
-	          </div>
-	            </li>
-	            <li>
-	              <div class="item">
-	            <h5>KNAK Mp3 Player</h5>
-	            <div class="grow">
-	            <img src="img/img3.jpg" alt="">
-	            </div>
-	            <p>Odtwarzacz plików mp3 wykonany w <span class="red-text">Java FX</span> stworzony na podstawie kursu ze strony JavaStart.pl.</p>
-	            <p><a href="https://github.com/bszczesniak/Mp3Player" class="more">KOD NA GITHUB &#9654;</a></p>
-	          </div>
-	            </li>
-	                        <li>
-	              <div class="item">
-	            <h5>KNAKNote</h5>
-	            <div class="grow">
-	            <img src="img/img4.jpg" alt="">
-	            </div>
-	            <p>Samodzielny projekt notatnika na wzór windowsowego wykonany w <span class="red-text">Java FX</span> z możliwością edycji warstwy wizualnej (wyświetlany font i jego rozmiar oraz zawijanie wierszy), a także <span class="red-text">odczyt i zapis plików</span>.</p>
-	            <p><a href="https://github.com/bszczesniak/NotatnikFX" class="more">KOD NA GITHUB &#9654;</a></p>
-	          </div>
-	            </li>
-	                        
-	          </ul>
-	          
-	          
-	          
-	        </div>
+        <div class="u-space-1">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-9 mb-lg-0">
+              <div class="pr-lg-4 mb-7">
+                <h2 class="text-primary">PAGE INTERACTIVE
+                </h2>
+                <p>Grudzień 2017 - do dnia dzisiejszego</p>
+                <p>Staż jako <span class="text-primary">Junior Frontend Developer</span>, a następnie praca jako <span class="text-primary">Junior PHP / Wordpress Developer</span> w agencji interaktywnej PAGE Interactive. Zajmuję się tworzeniem tworzeniem responsywnych witryn i ich poźniejszym utrzymaniem.</p>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-danger--air u-icon--sm rounded-circle">
+                          <span class="fab fa-html5 u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          HTML
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-danger--air u-icon--sm rounded-circle">
+                          <span class="fab fa-css3-alt u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          CSS
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-danger--air u-icon--sm rounded-circle">
+                          <span class="fab fa-js-square u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          JavaScript
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-success--air u-icon--sm rounded-circle">
+                          <span class="fab fa-php u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          PHP
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-success--air u-icon--sm rounded-circle">
+                          <span class="fab fa-wordpress u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          WordPress
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="media">
+                        <div class="d-flex mr-3">
+                          <span class="u-icon u-icon-warning--air u-icon--sm rounded-circle">
+                          <span class="fab fa-bitbucket u-icon__inner"></span>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          Bitbucket
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 position-relative">
+              <div id="video" class="u-video-player">
+                <img class="img-fluid u-video-player__preview" src="assets/img/750x750/page.jpg" alt="Image">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe id="vimeoVideo" class="embed-responsive-item" data-src="https://player.vimeo.com/video/97243285?autoplay=1&amp;title=0&amp;byline=0&amp;portrait=0">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+            <figure class="w-100 u-content-centered z-index-minus-1">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1109.8 797.1" style="enable-background:new 0 0 1109.8 797.1;" xml:space="preserve">
+                <path class="u-fill-primary" opacity=".1" d="M105.1,267.1C35.5,331.5-3.5,423,0.3,517.7c5.8,145.3,110.7,314.2,588,273.1c753-64.7,481.3-358.3,440.4-398.3
+                  c-4-3.9-7.9-7.9-11.7-12L761.9,104.8C639.4-27.6,432.5-35.6,299.9,87L105.1,267.1z"></path>
+              </svg>
+            </figure>
+          </div>
         </div>
-		<div class="ruler"></div>
-		<div class="content-wrap centering">
-        <div class="main-title">
-          <ul class="grid effect-8" id="grid">
-        <li>  <h1 id="umiejetnosci">UMIEJĘTNOŚCI</h1>
-<!--           <h4>Praesent dapibus, neque id cursus faucibus,<br> 
-tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat <br>
-volutpat. Nam dui mi, tincidunt quis, accumsan porttitor</h4> --></li>
-        </ul>
-        </div>
-
-		<div class="tags">
-		<h5 class="spacing-bt">JAVA ENTERPRISE EDITION</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">SPRING </li>
-      <li class="btn">THYMELEAF </li>
-    </ul></div>
-
-		<div class="tags">
-		<h5 class="spacing-bt">JAVA</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">FX </li>
-      <li class="btn">SWING </li>
-      <li class="btn">AWT </li>
-    </ul></div>
-
-    		<div class="tags">
-		<h5 class="spacing-bt">FRONTEND</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">HTML5 </li>
-      <li class="btn">CSS </li>
-      <li class="btn">jQuery </li>
-    </ul></div>
-
-        		<div class="tags">
-		<h5 class="spacing-bt">BAZY DANYCH</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">JPA / HIBERNATE </li>
-      <li class="btn">SQLITE </li>
-      <li class="btn">MYSQL </li>
-    </ul></div>
-
-            		<div class="tags">
-		<h5 class="spacing-bt">TESTY</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">JUNIT </li>
-    </ul></div>
-
-            		<div class="tags">
-		<h5 class="spacing-bt">API</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">JSON </li>
-      <li class="btn">XML </li>
-    </ul></div>
-
-                		<div class="tags">
-		<h5 class="spacing-bt">ZARZĄDZANIE BILBIOTEKAMI</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">MAVEN </li>
-      <li class="btn">GRADLE </li>
-    </ul></div>
-
-                		<div class="tags">
-		<h5 class="spacing-bt">SYSTEMY KONTROLI WERSJI</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">GITHUB </li>
-      <li class="btn">HEROKU </li>
-    </ul></div>
-
-                    		<div class="tags">
-		<h5 class="spacing-bt">APLIKACJE</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">INTELIJ IDEA </li>
-      <li class="btn">ECLIPSE </li>
-      <li class="btn">SCENE BUILDER </li>
-      <li class="btn">SUBLIME TEXT </li>
-    </ul></div>
-
-                    		<div class="tags">
-		<h5 class="spacing-bt">WZORCE PROJEKTOWE</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">MVC </li>
-      <li class="btn">DAO </li>
-      <li class="btn">SINGLETON </li>
-      <li class="btn">DEPENDENCY INJECTION</li>
-    </ul></div>
-			
-			                		<div class="tags">
-		<h5 class="spacing-bt">ZARZĄDZENIE PROJEKTAMI</h5>
-		<ul class="grid effect-7" id="grid" >
-      <li class="btn">TRELLO </li>
-      <li class="btn">JIRA </li>
-    </ul></div>
-	
       </div>
-
-  <div class="ruler"></div>
-
-<div class="content-wrap">
-        
-        <div class="main-title spacing-bt">
-          <ul class="grid effect-8" id="grid">
-            <li><h1 id="dodatkoweinformacje">DODATKOWE INFORMACJE</h1></li>
-          </ul>
-          
+    </div>
+    <div class="position-relative u-space-2-bottom">
+      <div class="container">
+        <div class="text-center mx-auto u-space-2-bottom">
+          <h2 class="text-primary"><strong>Zadania w czasie pracy w PAGE Interactive</strong></h2>
         </div>
+        <div class="js-slick-carousel u-slick u-slick--gutters-3 z-index-2"
+          data-slides-show="4"
+          data-slides-scroll="1"
+          data-pagi-classes="d-lg-none text-center u-slick__pagination mt-7 mb-0"
+          data-responsive='[{
+          "breakpoint": 1200,
+          "settings": {
+          "slidesToShow": 2
+          }
+          }, {
+          "breakpoint": 480,
+          "settings": {
+          "slidesToShow": 1
+          }
+          }]'>
+          <div class="js-slide mt-1">
+            <article class="bg-white shadow rounded transition-3d-hover mb-3">
+              <div class="rounded-top p-2">
+                <div class="d-flex align-items-center bg-white rounded mx-auto">
+                  <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/luxmed_logo.png" alt="Image Description">
+                </div>
+              </div>
+              <div class="pt-0 pr-2 pb-2 pl-2">
+                <div class="mb-3">
+                  <h2 class="h6 mb-0g">www.estetyka.luxmed.pl</h2>
+                  <small class="d-block text-secondary">Stworzenie serwisu dla Grupy Luxmed. Moja praca polegała głównie na przerobieniu stworzeonego w firmie szablonu wykonanego w <span class="text-primary">HTML5</span> na CMS. Przy projekcie korzystałem z <span class="text-primary">PHP</span> / <span class="text-primary">Wordpress</span>, <span class="text-primary">JQuery</span> i <span class="text-primary">Bootstrap 3</span>.</small>
+                </div>
+                <a class="btn btn-sm btn-block btn-primary u-btn-primary text-white" href="https://estetyka.luxmed.pl/" target="_blank">Zobacz</a>
+              </div>
+            </article>
+          </div>
+          <div class="js-slide mt-1">
+            <article class="bg-white shadow rounded transition-3d-hover mb-3">
+              <div class="rounded-top p-2">
+                <div class="d-flex align-items-center bg-white rounded mx-auto">
+                  <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/kn_logo.jpg" alt="Image Description">
+                </div>
+              </div>
+              <div class="pt-0 pr-2 pb-2 pl-2">
+                <div class="mb-3">
+                  <h2 class="h6 mb-0">www.knocknocky.com</h2>
+                  <small class="d-block text-secondary">Praca przy stronie internetowej z zegarkami dla dzieci. Wykorzystano <span class="text-primary">HTML5</span>, <span class="text-primary">CSS53</span> i <span class="text-primary">Bootstrap 3</span> i użyto <span class="text-primary">Wordpress</span> / <span class="text-primary">WooComerce</span>.</small>
+                </div>
+                <a class="btn btn-sm btn-block btn-primary u-btn-primary text-white" href="https://www.knocknocky.com/" target="_blank">Zobacz</a>
+              </div>
+            </article>
+          </div>
+          <div class="js-slide mt-1">
+            <article class="bg-white shadow rounded transition-3d-hover mb-3">
+              <div class="rounded-top p-2">
+                <div class="d-flex align-items-center bg-white rounded mx-auto">
+                  <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/cmc_logo.png" alt="Image Description">
+                </div>
+              </div>
+              <div class="pt-0 pr-2 pb-2 pl-2">
+                <div class="mb-3">
+                  <h2 class="h6 mb-0">www.cmc.org.pl</h2>
+                  <small class="d-block text-secondary">Stworzenie na podstawie projektu graficznego całego serwisu przy wykorzystaniu <span class="text-primary">HTML5</span>, <span class="text-primary">CSS53</span> i <span class="text-primary">Bootstrap 3</span> w <span class="text-primary">Wordpressie</span>. Dodatkow stworzony przez emnie szablon wykorzystany później w innych projekcie.</small>
+                </div>
+                <a class="btn btn-sm btn-block btn-primary u-btn-primary text-white" href="http://www.cmc.org.pl" target="_blank">Zobacz</a>
+              </div>
+            </article>
+          </div>
+          <div class="js-slide mt-1">
+            <article class="bg-white shadow rounded transition-3d-hover mb-3">
+              <div class="rounded-top p-2">
+                <div class="d-flex align-items-center bg-white rounded mx-auto">
+                  <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/zibi_logo.png" alt="Image Description">
+                </div>
+              </div>
+              <div class="pt-0 pr-2 pb-2 pl-2">
+                <div class="mb-3">
+                  <h2 class="h6 mb-0">www.zibi.pl</h2>
+                  <small class="d-block text-secondary">Praca utrzymaniowa przy 10 serwisach należących do grupy Zibi.pl zajmującej się głównie sprzedażą zegarków.</small>
+                </div>
+                <a class="btn btn-sm btn-block btn-primary u-btn-primary text-white" href="https://www.zibi.pl/">Zobacz</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="position-relative">
+      <div class="u-bg-img-hero text-center u-space-3 u-gradient-half-primary-v1">
+        <div class="container">
+          <div class="w-md-80 w-lg-50 text-center mx-auto mb-9">
+            <h2 class="text-white"><strong>Projekty samodzielne</strong></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <article class="bg-white shadow rounded transition-3d-hover mb-3">
+                <div class="rounded-top p-2">
+                  <div class="d-flex align-items-center bg-white rounded mx-auto">
+                    <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/img5.jpg" alt="Image Description">
+                  </div>
+                </div>
+                <div class="pt-0 pr-2 pb-2 pl-2">
+                  <div class="mb-3">
+                    <h2 class="h6 mb-0">Skarbiec postaci do papierowych gier RPG</h2>
+                    <small class="d-block text-secondary">Projekt wykonany w <span class="text-primary">JEE</span> służący do zapisywania i odczytu z bazy danych postaci do papierowych gier RPG. Korzysta z <span class="text-primary">JPA</span> / <span class="text-primary">Hibernate</span>, <span class="text-primary">Spring Boota</span>, <span class="text-primary">REST</span>, <span class="text-primary">Thymeleafa</span>, <span class="text-primary">jQuery</span>, <span class="text-primary">HTML</span> i <span class="text-primary">CSS</span>.</small>
+                  </div>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://github.com/bszczesniak/SkarbiecPostaciRPG" target="_blank" tabindex="0">Zobacz na Github</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-6">
+              <article class="bg-white shadow rounded transition-3d-hover mb-3">
+                <div class="rounded-top p-2">
+                  <div class="d-flex align-items-center bg-white rounded mx-auto">
+                    <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/img1.jpg" alt="Image Description">
+                  </div>
+                </div>
+                <div class="pt-0 pr-2 pb-2 pl-2">
+                  <div class="mb-3">
+                    <h2 class="h6 mb-0">Generator lorem ipsum</h2>
+                    <small class="d-block text-secondary">Samodzielny projekt generujący tekst w <span class="text-primary">JEE</span> na różne sposoby. Tworząc go wykorzystałem <span class="text-primary">Spring Boota</span>, <span class="text-primary">Thymeleafa</span>, <span class="text-primary">jQuery</span>, <span class="text-primary">HTML</span> i <span class="text-primary">CSS</span>.</small>
+                  </div>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://bartlomiejlorem.herokuapp.com/" target="_blank" tabindex="0">Zobacz na Heroku</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="bg-white shadow rounded transition-3d-hover mb-3">
+                <div class="rounded-top p-2">
+                  <div class="d-flex align-items-center bg-white rounded mx-auto">
+                    <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/img2.jpg" alt="Image Description">
+                  </div>
+                </div>
+                <div class="pt-0 pr-2 pb-2 pl-2">
+                  <div class="mb-3">
+                    <h2 class="h6 mb-0">Klon Kwejka</h2>
+                    <small class="d-block text-secondary">Projekt grupowy w <span class="text-primary">JEE</span>, dzięki któremu nauczyłem się korzystać z <span class="text-primary">Github</span>, rozwiązywania konfliktów oraz korzystać z szablonów. Wykorzystuje <span class="text-primary">Spring Boota</span>, <span class="text-primary">REST</span>, <span class="text-primary">JSon</span>, <span class="text-primary">Thymeleafa</span>, <span class="text-primary">HTML</span> i <span class="text-primary">CSS</span>.</small>
+                  </div>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://kwejkakademiakodu.herokuapp.com/" target="_blank" tabindex="0">Zobacz na Heroku</a>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://github.com/bszczesniak/kwejk" target="_blank" tabindex="0">Zobacz na Github</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="bg-white shadow rounded transition-3d-hover mb-3">
+                <div class="rounded-top p-2">
+                  <div class="d-flex align-items-center bg-white rounded mx-auto">
+                    <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/img3.jpg" alt="Image Description">
+                  </div>
+                </div>
+                <div class="pt-0 pr-2 pb-2 pl-2">
+                  <div class="mb-3">
+                    <h2 class="h6 mb-0">KnaK MP3 Player</h2>
+                    <small class="d-block text-secondary">Odtwarzacz plików mp3 wykonany w <span class="text-primary">Java FX</span> stworzony na podstawie kursu ze strony JavaStart.pl.</small>
+                  </div>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://github.com/bszczesniak/Mp3Player" target="_blank" tabindex="0">Zobacz na Github</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="bg-white shadow rounded transition-3d-hover mb-3">
+                <div class="rounded-top p-2">
+                  <div class="d-flex align-items-center bg-white rounded mx-auto">
+                    <img class=" rounded mx-auto img-fluid p-3" src="assets/img/750x750/img4.jpg" alt="Image Description">
+                  </div>
+                </div>
+                <div class="pt-0 pr-2 pb-2 pl-2">
+                  <div class="mb-3">
+                    <h2 class="h6 mb-0">KNAKnote</h2>
+                    <small class="d-block text-secondary">Samodzielny projekt notatnika na wzór windowsowego wykonany w <span class="text-primary">Java FX</span> z możliwością edycji warstwy wizualnej (wyświetlany font i jego rozmiar oraz zawijanie wierszy), a także <span class="text-primary">odczyt i zapis plików</span>.</small>
+                  </div>
+                  <a class="btn btn-sm btn-block btn-primary u-btn-primary" href="https://github.com/bszczesniak/NotatnikFX" target="_blank" tabindex="0">Zobacz na Github</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <figure class="w-100 position-absolute-top-0">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 1920 125.7" style="margin-top: -8px; margin-bottom: 0; enable-background:new 0 0 1920 125.7;" xml:space="preserve">
+          <path class="u-fill-white" d="M1920,0v44.2c0,0-451,63.8-960,6.3S0,125.7,0,125.7L0,0L1920,0z"/>
+        </svg>
+      </figure>
+      <figure class="w-100 position-absolute-bottom-0">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 1920.5 248.5" style="margin-bottom: -8px; enable-background:new 0 0 1920.5 248.5;" xml:space="preserve">
+          <path class="u-fill-white" d="M0.5,248.5v-44.2c0,0,451-63.8,960-6.3s960-75.1,960-75.1v125.7H0.5z"/>
+        </svg>
+      </figure>
+    </div>
+    <div class="container u-space-2" id="skills">
+      <div class="text-center mx-auto mb-9">
+        <h1 class="lead text-primary display-4">Umiejętności i używane narzędzia</h1>
+      </div>
+      <div class="row justify-content-md-between align-items-center">
+        <div class="col-12 col-md-6">
+          <div class="pr-md-4">
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">PHP</h3>
+                <p>WordPress / WooComerce</p>
+              </div>
+            </div>
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">FRONTEND</h3>
+                <p>HTML5 / CSS3 / Bootstrap 4 / SCSS / JavaScript / JQuerry</p>
+              </div>
+            </div>
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">JAVA</h3>
+                <p>Spring / Thymeleaf / JavaFX / Swing / AWT / JUnit / JPA / Hibernate / Maven / Gradle</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">SYSTEMY KONTROLI WERSJI</h3>
+                <p>GitHub / BitBucket / Heroku</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="pr-md-4">
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">BAZY DANYCH</h3>
+                <p>MySQL / SQLite</p>
+              </div>
+            </div>
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">API</h3>
+                <p>JSon / XML</p>
+              </div>
+            </div>
+            <div class="media u-indicator-ver-dashed mb-3">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">NARZĘDZIA</h3>
+                <p>Gulp / Bash / Sublime / Intelij Idea / Eclipse / Eclipse</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="d-flex mt-1 mr-3">
+                <span class="u-icon u-icon-primary u-icon--xs rounded-circle">
+                <span class="fa fa-check u-icon__inner"></span>
+                </span>
+              </div>
+              <div class="media-body">
+                <h3 class="h5 text-primary">ZARZĄDZANIE CZASEM I PROJEKTAMI</h3>
+                <p>Asana / Harvest / Invision / Trello / Jira</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="u-gradient-half-primary-v1 u-space-2" id="info">
+      <div class="container">
+        <h1 class="lead text-white text-center display-4 mb-5">Dodatkowe informacje</h1>
+        <div class="card-group d-block d-lg-flex u-card--gutters-2-lg container">
+          <div class="card bg-transparent border-0 mb-3 mb-lg-0">
+            <div class="card-body info-v2 bg-white rounded transition-3d-hover p-4">
+              <h4 class="h6 text-dark mb-1 text-center">KURSY:</h4>
+              <div class="media">
+                <div class="d-flex">
+                  <span class="u-icon u-icon--lg u-icon-warning--air rounded-circle">
+                  <span class="fas fa-graduation-cap u-icon__inner"></span>
+                  </span>
+                </div>
+                <div class="media-body px-4">
+                  <ul>
+                    <li><small class="d-block text-secondary">Java Bootcamp w Akademii Kodu (200h)</small></li>
+                    <li><small class="d-block text-secondary">Java Podstawy w JavaStart.pl</small></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-transparent border-0 mb-3 mb-lg-0">
+            <div class="card-body info-v2 bg-white rounded transition-3d-hover p-4">
+              <h4 class="h6 text-dark mb-1 text-center">JĘZYKI:</h4>
+              <div class="media">
+                <div class="d-flex">
+                  <span class="u-icon u-icon--lg u-icon-warning--air rounded-circle">
+                  <span class="fas fa-comments u-icon__inner"></span>
+                  </span>
+                </div>
+                <div class="media-body px-4">
+                  <ul>
+                    <li><small class="d-block text-secondary">Angielski (W mowie i piśmie na poziomie B1)</small></li>
+                    <li><small class="d-block text-secondary">Polski (Ojczysty)</small></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container u-space-2" id="hobby">
+      <h1 class="lead text-primary text-center display-4 pb-5">Zainteresowania</h1>
       <div class="row">
-
-      <div class="featured-block">
-        
-        <div class="col-md-4">
-        <div class="icon-btn">
-          <i class="fw-icon-check-sign icon"></i>
-          
+        <div class="col-md-4 mb-7">
+          <div class="text-center px-lg-3">
+            <span class="u-icon u-icon-danger--air u-icon--xl rounded-circle mb-7">
+            <span class="fas fa-dice u-icon__inner u-icon__inner-bottom-minus"></span>
+            </span>
+            <h3 class="h5">Gry fabularne i planszowe</h3>
+            <p class="mb-md-0">Lubię turlać kostkami.</p>
+          </div>
         </div>
-        <div class="block">
-          <h5>Kursy:</h5>
-          <p>Java Bootcamp w Akademii Kodu (200h)</p><p>Java Podstawy w JavaStart.pl</p>
+        <div class="col-md-4 mb-7">
+          <div class="text-center px-lg-3">
+            <span class="u-icon u-icon-primary--air u-icon--xl rounded-circle mb-7">
+            <span class="fas fa-book-open u-icon__inner u-icon__inner-bottom-minus"></span>
+            </span>
+            <h3 class="h5">Książki</h3>
+            <p class="mb-md-0">Zwłaszcza horror i fantasy.</p>
+          </div>
         </div>
+        <div class="col-md-4 mb-7">
+          <div class="text-center px-lg-3">
+            <span class="u-icon u-icon-success--air u-icon--xl rounded-circle mb-7">
+            <span class="fas fa-gamepad u-icon__inner u-icon__inner-bottom-minus"></span>
+            </span>
+            <h3 class="h5">Gry komputerowe</h3>
+            <p class="mb-md-0">Ze strategiami i RPG na czele.</p>
+          </div>
         </div>
-      </div>
-      <div class="featured-block">
-        <div class="col-md-4">
-        <div class="icon-btn">
-          <i class="fw-icon-comments icon"></i>
-        </div>
-        <div class="block">
-          <h5>Języki:</h5>
-          <p>Angielski (Znajomość w mowie i piśmie na poziomie B1)</p>
-          <p>Polski (Ojczysty)</p>
-        </div>
-        </div>
-      </div>
-      <div class="featured-block">
-        <div class="col-md-4">
-        <div class="icon-btn">
-        <i class="fw-icon-tasks icon"></i>  
-        </div>
-        <div class="block">
-          <h5>Wykształcenie:</h5>
-          <p>2009 – 2012<br>Liceum ogólnokształcące Progres</p>
-        </div>
-        </div>
-      </div>
-      </div>
-      </div>
-
-
-
-      
-  <div class="ruler"></div>
-        <div class="main-title">
-          <ul class="grid effect-8" id="grid">
-        <li><br><br><h1 id="zainteresowania">ZAINTERESOWANIA</h1>
-<!--           <h4>Praesent dapibus, neque id cursus faucibus,<br> 
-tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat <br>
-volutpat. Nam dui mi, tincidunt quis, accumsan porttitor</h4> --></li>
-        </ul>
-        </div>
-
-            <div class="banner">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/banner-img1.jpg" alt="" class="">
-      <div class="carousel-caption">
-          
-        <h2></h2>
-        <h1></h1>
-        <p class="btn">Książki z gatunków horror i fantasy</p>
       </div>
     </div>
-    <div class="item">
-      <img src="img/banner-img2.jpg" alt="">
-      <div class="carousel-caption">
-          
-        <h2></h2>
-        <h1></h1>
-        <p class="btn">Gry fabularne i planszowe</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/banner-img3.jpg" alt="">
-      <div class="carousel-caption">
-          
-        <h2></h2>
-        <h1></h1>
-        <p class="btn">Kooperacyjne gry sieciowe</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-      </div>
-	 
-    </div><!-- /container -->
-
-
-	
-    <div class="container">
-	<div class="copy-rights">
-		<a href="https://bszczesniak.github.io/">&copy; Bartłomiej Szczęśniak</a>
-	</div>
-	</div>
-
-    
-    
-
-     
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-     <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/AnimOnScroll.js"></script>
-    
+    <a class="js-go-to u-go-to" href="#"
+      data-position='{"bottom": 15, "right": 15 }'
+      data-type="fixed"
+      data-offset-top="400"
+      data-compensation="#header"
+      data-show-effect="slideInUp"
+      data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+    </a>
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
+    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="assets/js/hs.core.js"></script>
+    <script src="assets/js/components/hs.header.js"></script>
+    <script src="assets/js/components/hs.unfold.js"></script>
+    <script src="assets/js/helpers/hs.focus-state.js"></script>
+    <script src="assets/js/components/hs.malihu-scrollbar.js"></script>
+    <script src="assets/js/components/hs.validation.js"></script>
+    <script src="assets/js/components/hs.fancybox.js"></script>
+    <script src="assets/js/components/hs.slick-carousel.js"></script>
+    <script src="assets/js/components/hs.show-animation.js"></script>
+    <script src="assets/js/components/hs.go-to.js"></script>
     <script>
-      new AnimOnScroll( document.getElementById( 'grid' ), {
-        minDuration : 0.4,
-        maxDuration : 0.7,
-        viewportFactor : 0.2
-      } );
+      $(window).on('load', function () {
+        $('.js-mega-menu').HSMegaMenu({
+          event: 'hover',
+          pageContainer: $('.container'),
+          breakpoint: 767,
+          hideTimeOut: 0
+        });
+      });
+      
+      $(document).on('ready', function () {
+        $.HSCore.components.HSHeader.init($('#header'));
+        $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+          afterOpen: function () {
+            $(this).find('input[type="search"]').focus();
+          }
+        });
+        $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+        $.HSCore.helpers.HSFocusState.init();
+        $.HSCore.components.HSValidation.init('.js-validate', {
+          rules: {
+            confirmPassword: {
+              equalTo: '#password'
+            }
+          }
+        });
+        $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+        $.HSCore.components.HSFancyBox.init('.js-fancybox');
+        var typed = new Typed(".u-text-animation.u-text-animation--typing", {
+          strings: ["PHP / Wordpress", "Frontend", "Java"],
+          typeSpeed: 60,
+          loop: true,
+          backSpeed: 25,
+          backDelay: 1500
+        });
+        $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+      });
     </script>
-
-    
   </body>
 </html>
