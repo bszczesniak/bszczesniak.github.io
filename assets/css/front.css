@@ -918,6 +918,13 @@ svg {
     border-left-style: solid;
     border-left-color: #045cff;
   }
+  .display-4 {
+  font-size: 2rem !important;
+  }
+  html {
+    font-size: 14px;
+  }
+
 }
 
 .u-header--navbar-bg .navbar-text {
